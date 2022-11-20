@@ -5,10 +5,12 @@ print("[*] this is Wallet B\n\n")
 
 
 #### Sending funds
-print("Enter the wallet id: ")
+print("Enter ID of the reciving wallet: ")
 #wid_b = input().strip()
-wid_b = "1234"
-
+wid_b = "0010"
+print("Enter Amount of funds to add/remove from the wallet: ")
+#wid_b_amount = input().strip()
+wid_b_amount = "1234"
 
 if __name__ == "__main__":
 
@@ -18,5 +20,6 @@ if __name__ == "__main__":
     print("\n")
 
     print("[+] Wallet ID: " + wid_b)
+    print("[+] Amount wid_b_amount: " + wid_b_amount)
     print("\n\n\n")
 
