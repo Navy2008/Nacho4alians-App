@@ -12,8 +12,8 @@ print("Enter Amount of funds to add/remove from the wallet (-XXX for remove): ")
 #wid_b_amount = input().strip()
 wid_b_amount = "1234"
 
-"""counter b: counter value"
-cb = 
+""":counter b: counter value"""
+cb = 1234
 
 
 
