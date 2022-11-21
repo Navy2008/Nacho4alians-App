@@ -1,0 +1,8 @@
+[run]
+omit =
+    # omit everything in ./tests/*
+    ./tests/*
+    # omit anything in a .local directory anywhere
+    */.local/*
+    # omit this single file
+    ./tests/test_smtmain.py
