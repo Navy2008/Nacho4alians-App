@@ -1,3 +1,4 @@
+# find documentation here: https://coverage.readthedocs.io/en/6.5.0/config.html
 [run]
 omit =
     # omit everything in ./tests/*
