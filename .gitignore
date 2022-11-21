@@ -7,6 +7,6 @@
 .venv
 .venv/*
 
-./.covearge
+./.coverage
 ./coverage_html_report
 ./coverage_html_report/*
