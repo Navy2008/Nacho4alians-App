@@ -5,7 +5,7 @@ print("[*] this is Wallet B\n\n")
 
 
 #### U3: Sending funds
-print("Enter ID of the reciving wallet: ")
+print("Enter ID of the receiving wallet: ")
 #wid_b = input().strip()
 wid_b = "0010"
 print("Enter Amount of funds to add/remove from the wallet (-XXX for remove): ")
@@ -18,7 +18,7 @@ cb = 1234
 def hellofunction(z=0):
     """A stub function for starting the U3: sending funds function (see testcase)
 
-    :param: z a vaule coming in (optional)
+    :param: z a value coming in (optional)
 
     :return: The value of the calculation for funds added or removed.
     """
