@@ -3,8 +3,10 @@
 import unittest
 import smtmain
 
+
 class TestSmtmain(unittest.TestCase):
     """Unittest for smtmain"""
+
     def setUp(self):
         self.smtmain = smtmain.hellofunction()
 
