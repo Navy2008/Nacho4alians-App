@@ -15,6 +15,14 @@ wid_b_amount = "1234"
 """:counter b: counter value"""
 cb = 1234
 
+def hellofunction(z):
+    """A stub function for starting the U3: sending funds function (see testcase)
+
+    :param: z a vaule coming in (optional)
+
+    :return: The value of the calculation for funds added or removed.
+    """
+    return 32
 
 
 if __name__ == "__main__":
