@@ -11,7 +11,7 @@ class TestSmtmain(unittest.TestCase):
         self.smtmain = smtmain.hellofunction()
 
     def test_validate_hellofunction(self):
-        self.assertEqual(smtmain.hellofunction(), 32)
+        self.assertEqual(smtmain.hellofunction(z=32), 32)
 
 
 if __name__ == '__main__':

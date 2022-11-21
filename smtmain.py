@@ -22,12 +22,13 @@ def hellofunction(z=0):
 
     :return: The value of the calculation for funds added or removed.
     """
-    return 32
+    return z
 
 
 if __name__ == "__main__":
 
-    print("\n\n\n")
+    print("\n\n\n")  # pragma: no cover
+
     print("python main!")
     print("python main!")
     print("\n")
@@ -42,5 +43,7 @@ if __name__ == "__main__":
 
 
 
-    print("[+] ****** DONE. ********")
+
+    print("[+] ****** DONE. ********")  # pragma: no cover
+
 
