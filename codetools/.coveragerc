@@ -1,0 +1,21 @@
+# find documentation here: https://coverage.readthedocs.io/en/6.5.0/config.html
+# .coveragerc to control coverage.py
+[run]
+omit =
+    # omit everything in ./tests/*
+    ./tests/*
+    # omit anything in a .local directory anywhere
+    */.local/*
+    # omit this single file
+    ./tests/test_smtmain.py
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    pragma: no cover
+    if 0:
+    initial_amount = 1235
+    if __name__ == .__main__.:
+
+[html]
+directory = coverage_html_report
