@@ -1,0 +1,12 @@
+.idea
+.idea/*
+
+.git/*
+.gitignore
+
+.venv
+.venv/*
+
+./.coverage
+./coverage_html_report
+./coverage_html_report/*
